@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expang-lg navbar-light bg-light navbar-static-top">
+<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-static-top">
   <div class="container">
     <!-- Branding Image -->
     <a class="navbar-brand" href="{{ url('/') }}">
@@ -9,7 +9,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collaspe justify-content-between" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
       <!-- Left Side Of Navbar -->
       <ul class="navbar-nav">
 
@@ -18,8 +18,8 @@
       <!-- Right Side Of Navbar -->
       <ul class="navbar-nav navbar-right">
         <!-- Authentication Links -->
-        <li class="nav-item"><a class="nav-link" href="#">登录</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">注册</a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ route('login') }}">登录</a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ route('register') }}">注册</a></li>
       </ul>
     </div>
   </div>
