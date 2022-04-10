@@ -26,7 +26,7 @@
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <img src="https://cdn.learnku.com/uploads/images/201709/20/1/PtDKbASVcz.png?imageView2/1/w/60/h/60"
-                   class="img-responsive img-circle" width="30px" height="30px" alt="gravatar">
+                   class="img-responsive img-circle" width="30px" height="30px" alt="{{ $user->name }}">
               {{ Auth::user()->name }}
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
